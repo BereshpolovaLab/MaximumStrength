@@ -10,21 +10,21 @@ Install latest version of python for all user. Install it for all users. For Win
 
 Check the "import" statements in all *.py files to know what modules do we have to install. "import" statements are also used for using standard python modules. No need to install them. A error message after running scripts could say what module is missed. 
 
-Example 1.1. Install packages:
+**Example 1.1. Install packages:**
 
-pip install --upgrade matplotlib
-pip install --upgrade numpy
-pip install --upgrade pycodestyle
-pip install --upgrade PyQt6
-pip install --upgrade scikit-learn
-pip install --upgrade scipy
-pip install --upgrade tabulate              
+*pip install --upgrade matplotlib\
+pip install --upgrade numpy\
+pip install --upgrade pycodestyle\
+pip install --upgrade PyQt6\
+pip install --upgrade scikit-learn\
+pip install --upgrade scipy\
+pip install --upgrade tabulate*              
 
-Example 1.2. Update packages:
+**Example 1.2. Update packages:**
 
-> python -m pip install --upgrade pip
-> pip freeze > list.txt
-> pip install -r list.txt --upgrade
+*python -m pip install --upgrade pip\
+pip freeze > list.txt\
+pip install -r list.txt --upgrade*
                 
 ## Configuration parameters
 ### Main configuration parameters
