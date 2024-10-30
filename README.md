@@ -36,8 +36,14 @@ pip install -r list.txt --upgrade*
 ## Data visualization
 
 Here is a visualization of receptive field dynamics plots. 
-![MaximumStrength hot spot maximum fitting curves](./Images/MaximumStrength_PlotsAndDynamicsPlots.png)
+
+![**MaximumStrength hot spot maximum fitting curves**](./Images/MaximumStrength_PlotsAndDynamicsPlots.png)
+
 Here is a visualization of hot spot maximum fitting curves and power fitting curves 
+
+|![**MaximumStrength hot spot maximum fitting curves**](./Images/MaximumStrength_HotSpotMaximum_FittingCurves.png)|![**MaximumStrength power fitting curves**](./Images/MaximumStrength_Power_FittingCurves.png)|
+
+H|
 
 ## Report 
 ### MaximumStrength report parameters: 
