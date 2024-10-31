@@ -40,13 +40,12 @@ pip install -r list.txt --upgrade*
   <tr>
     <td><i>FittingCurveEnable</i></td>
     <td>- show/hide fitting curve and parameters. The value range: False or True.</td>
-  </tr><tr>
+  </tr>
+  <tr>
     <td><i>BaseLineInterval</i></td>
     <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
 </table>
-
-AAAA
 
 ## Data visualization
 
