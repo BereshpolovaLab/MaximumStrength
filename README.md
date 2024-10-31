@@ -32,12 +32,12 @@ pip install -r list.txt --upgrade*
 ### Channel configuration parameters 
 
 ### Plot configuration parameters
-<table>
+<table alighn="left">
   <tr>
-    <th>*FittingCurveEnable*</th>
+    <th><i>FittingCurveEnable</i>i</th>
     <th>- show/hide fitting curve and parameters. The value range: False or True.</th>
   </tr><tr>
-    <th>*BaseLineInterval*</th>
+    <th><i>BaseLineInterval</i>i</th>
     <th>- interval in ms for the base line. Format: (t1, t2).</th>
   </tr>
 </table>
