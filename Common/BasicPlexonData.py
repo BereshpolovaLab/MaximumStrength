@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# 24, BereshpolovaLab, University of Connecticut
+# 2024, BereshpolovaLab, University of Connecticut
+# Developed by Victor Serdyukov, e-mails: Victor.Serdyukov@uconn.edu
 
 
 import matplotlib.patches as patches
