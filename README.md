@@ -45,7 +45,8 @@ pip install -r list.txt --upgrade*
     <td><i>BaseLineInterval</i></td>
     <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
-</table><br><br>
+</table>
+<br>
 
 ## Data visualization
 
