@@ -179,7 +179,7 @@ pip install -r list.txt --upgrade*
         <th>Description</th> 
     </tr>
     <tr>
-        <td><i>Chanel</i></td>
+        <td><i>Channel</i></td>
 	    <td>- channel number</td>   
     </tr>
     <tr>
