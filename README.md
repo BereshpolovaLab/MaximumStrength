@@ -32,7 +32,7 @@ pip install -r list.txt --upgrade*
 ### Channel configuration parameters 
 
 ### Plot configuration parameters
-<table alighn="left">
+<table align="left">
   <tr>
     <th><i>FittingCurveEnable</i>i</th>
     <th>- show/hide fitting curve and parameters. The value range: False or True.</th>
