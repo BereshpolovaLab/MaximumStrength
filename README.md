@@ -59,6 +59,27 @@ pip install -r list.txt --upgrade*
         <th>Parameter</th>
         <th>Description</th> 
     </tr>
+
+    <tr>
+        <td><i>InputDir</i></td> 
+	    <td>- directory with data files. Default value: 'Data'.</td>
+    </tr>
+     <tr>
+        <td><i>OutputDir</i></td> 
+	    <td>- directory to save results: report and graphics files. The default
+        value: 'Output\MaximumStrength'.</td>
+    </tr>
+     <tr>
+        <td><i>BasicFileName</i></td> 
+	    <td>- filename without extension (it hat to match the exact filename in
+        InputDir). The same filename will be used for data and result files.
+        This parameter has to be changed before script running.</td>
+    </tr>
+    <tr>
+        <td><i>PLXFileName, LogFileName, PlotGraphicFileName</i></td> 
+	    <td>- data, report and colormap plot graphics filenames are generated
+        automatically and can be edited by user.</td>
+    </tr>
     <tr>
         <td><i>HotSpotMaximumFittingCurveGraphicFileName,
         PowerFittingCurveGraphicFileName</i></td> 
