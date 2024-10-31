@@ -180,15 +180,16 @@ pip install -r list.txt --upgrade*
     </tr>
     <tr>
         <td><i>Channel</i></td>
-	    <td>- channel number</td>   
+	    <td>- Plexon channel. The value range: 1 - 32.</td>   
     </tr>
     <tr>
         <td><i>Cluster</i></td>
-	    <td>- claster number</td>   
+	    <td>- Plexon cluster. The value range: 1 - 4.</td>   
     </tr>
     <tr>
         <td><i>Treshold</i></td>
-	    <td>- threshold for data to remove noise</td>   
+	    <td>- parameter specifies the threshold to remove noise and get clear
+        RF. Defaut value: 0.3. The value range: 0 - 1.</td>   
     </tr>
     <tr>
         <td><i>TimeWindowPlotMode</i></td>
@@ -223,6 +224,38 @@ pip install -r list.txt --upgrade*
 	    <td>- delay for detecting latency (STD threshold). The value range:
         None or time in ms.</td>
     </tr> 
+    <tr>
+        <td><i>Response</i></td> 
+	    <td>- parameter specifies the polarity of response. The value range:
+        'On', 'Off' of 'Merged'. 'Merged' is used for merged on- and off-plots.
+        </td>
+    </tr> 
+    <tr>
+        <td><i>TimeWindow</i></td> 
+	    <td>- parameter specifies the time window in milliseconds for
+        reverse-correlation processing.</td>
+    </tr> 
+    <tr>
+        <td><i>MaximumAutoDetectFlag</i></td> 
+	    <td>- parameter allow to detect the position of RF maximum in automatic
+        (if 'True') mode or using preset position (if 'False'). The value
+        range: True or False.</td>
+    </tr> 
+    <tr>
+        <td><i>IJMaximumPosition</i></td> 
+	    <td>- parameter specifies the preset position of RF maximum. The value
+        range: ((I1, J1) - (I22, J30)). I, J is the absolute position in data
+        matrix.</td>
+    </tr> 
+    <tr>
+        <td><i>FieldRadius</i></td> 
+	    <td>arameter specifies the radius of field around hotspot (maximum
+        position). This value is a number of grid squares (elements of
+        reverse-correlation matrix): 1 = 3x3, 2 = 5x5, etc.
+        <img src="./Images/FieldRadius.png" /></td>
+    </tr> 
+
+
 </table></div>
 
 ### Plot configuration parameters
