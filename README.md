@@ -34,6 +34,10 @@ pip install -r list.txt --upgrade*
 ### Plot configuration parameters
 <table align="left">
   <tr>
+      <th>Parameter</th>
+      <th>Description</th> 
+  </tr>
+  <tr>
     <td><i>FittingCurveEnable</i></td>
     <td>- show/hide fitting curve and parameters. The value range: False or True.</td>
   </tr><tr>
