@@ -46,12 +46,8 @@ pip install -r list.txt --upgrade*
     <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
 </table>
-\
-&nbsp;
-\
-&nbsp;
 
-## Data visualization
+<h2>Data visualization</h2>
 
 Here is a visualization of receptive field dynamics plots. 
 
