@@ -32,8 +32,15 @@ pip install -r list.txt --upgrade*
 ### Channel configuration parameters 
 
 ### Plot configuration parameters
-| *FittingCurveEnable* | - show/hide fitting curve and parameters. The value range: False or True. |
-| *BaseLineInterval*   | - interval in ms for the base line. Format: (t1, t2).                     | 
+<table>
+  <tr>
+    <th>*FittingCurveEnable*</th>
+    <th>- show/hide fitting curve and parameters. The value range: False or True.</th>
+  </tr><tr>
+    <th>*BaseLineInterval*</th>
+    <th>- interval in ms for the base line. Format: (t1, t2).</th>
+  </tr>
+</table>
 
 ## Data visualization
 
