@@ -65,6 +65,54 @@ pip install -r list.txt --upgrade*
 	    <td>- file names for hotspot and power fitting curves.</td>
     </tr>
     <tr>
+        <td><i>ProtocolNumber</i></td> 
+	    <td>- protocol for encoding information for visual stimulation.
+        Default value: 11. To analize old data use protocol 0 (obsolete, no
+        longer supported). Other protocol could be used.</td>
+    </tr>
+     <tr>
+        <td><i>VRR</i></td> 
+	    <td>- vertical refresh rate (in Hz) of the stimulation computer
+        monitor. Default value is 160.</td>
+    </tr>
+     <tr>
+        <td><i>VRR_AutoDetectFlag</i></td> 
+	    <td>- parameter defines the mode of VRR detection: autodetect or preset
+        value. The script detects only 100 or 160 Hz in automatic mode. For
+        other values preset VRR and reset this flag. The value range: True or
+        False.</td>
+    </tr>
+     <tr>
+        <td><i>PlexonDigitalCard</i></td> 
+	    <td>- digital input of Plexon hardware (TTL). Default value: 0. The
+        value range: 0 or 1. 0 - primary stimualtion, 1 - secondary
+        stimulation.</td>
+    </tr>
+     <tr>
+        <td><i>FileInterval</i></td> 
+	    <td>- parameter selects the time window in seconds for data analysis.
+        If it is not preset (None, None) uses an entire file for analysis.</td>
+    </tr>
+    <tr>
+        <td><i>Filter</i></td> 
+	    <td>- parameter for filter. This filter will be applied to the raw data
+        matrix. The value range: 'gaussian' or None. None means the unfiltered
+        raw data matrix will be used.</td>
+    </tr>
+    <tr>
+        <td><i>GaussianSigma</i></td> 
+	    <td>- parameter for the Gaussian filter. The role of sigma is to
+        control the variation around its mean value. A higher Sigma allows for
+        more variance around the mean, resulting in a larger and smoother RF.
+        </td>
+    </tr>
+    <tr>
+        <td><i>Interpolation</i></td> 
+	    <td>- smoothing method used for presentation of the colormap plot.
+        Default value: 'bicubic'. Read Matplotlib documentation for all
+        possible values.</td>
+    </tr>
+    <tr>
         <td><i>TimeWindows: T1, T2, Step, Duration</i></td>  
 	    <td>- T1 - T2 - time interval for dynamics in ms. Step - the time
         interval in ms between two iterations. The duration is the time window
@@ -164,10 +212,10 @@ pip install -r list.txt --upgrade*
 	    <td>- colors for On- and Off- power fitting curves.</td> 
     </tr>
     <tr>
-        <td><i>HotSpotMaximumFittingCurveGraphicFileDPI,
+        <td><i>PlotGraphicFileDPI, HotSpotMaximumFittingCurveGraphicFileDPI,
         PowerFittingCurveGraphicFileDPI</i></td> 
-	    <td>- resolutions for hotspot and power fitting curve graphics files. 
-        </td>
+	    <td>- resolutions for plot, hotspot and power fitting curve graphics
+        files.</td>
     </tr>
 </table></div>
 
