@@ -17,11 +17,23 @@ indicate the ON or OFF subfield dominance.
 
 ## Installation
 
-We need python-language and a few additional modules (packages) to run our scripts. To get more information about python visit web-sites: https://www.python.org/. Please keepin mind that the newest versions of python won't work with old operating systems as Windows 7, Windowx XP etc. So please pay attention what you download and install. Please read documentation to install, delete or update Python-language and packages.
+We need python-language and a few additional modules (packages) to run our
+scripts. To get more information about python visit web-sites:
+https://www.python.org/. Please keepin mind that the newest versions of python
+won't work with old operating systems as Windows 7, Windowx XP etc. So please
+pay attention what you download and install. Please read documentation to
+install, delete or update Python-language and packages.
 
-Install latest version of python for all user. Install it for all users. For Windows 7 it will be vesrion 3.8.10 and for Windows 10 or 11 it will be version 3.13.0 or later. To install scikit-learn package we have to install Microsoft Visual Studio. The latest Community-version will be good. We need only desktop application support in Visual Studio. Upgrade pip and install packages. 
+Install latest version of python for all user. Install it for all users. For
+Windows 7 it will be vesrion 3.8.10 and for Windows 10 or 11 it will be version
+3.13.0 or later. To install scikit-learn package we have to install Microsoft
+Visual Studio. The latest Community-version will be good. We need only desktop
+application support in Visual Studio. Upgrade pip and install packages. 
 
-Check the "import" statements in all *.py files to know what modules do we have to install. "import" statements are also used for using standard python modules. No need to install them. A error message after running scripts could say what module is missed. 
+Check the "import" statements in all *.py files to know what modules do we have
+to install. "import" statements are also used for using standard python
+modules. No need to install them. A error message after running scripts could
+say what module is missed. 
 
 **Example 1.1. Install packages:**
 
@@ -45,91 +57,112 @@ pip install -r list.txt --upgrade*
 ### Channel configuration parameters 
 
 <div><table align="left">
-  <tr>
-    <th>Parameter</th>
-    <th>Description</th> 
-  </tr>
-  <tr>
-    <td><i>TimeWindowPlotMode</i></td>
-	  <td>- The parameter defines the time window for channel. The value range: 'On', 'Off', 'OnOff'.        'On' - the time window from 'On'-plot parameters is used for On- and Off-plots. 'Off' - the time      window from 'Off'-plot parameters is used for On- and Off-plots. 'OnOff' - each plot uses its         own time window parameter.</td>  
-  </tr>
-  <tr>
-    <td><i>MaximumIJPlotMode</i></td> 
-	  <td>- parameter defines the maximum position (IJ) for channel. The value range: 'On', 'Off',          'OnOff'. In case 'OnOff' each plot will use its own maximum position.</td>
-  </tr>
-  <tr>
-    <td><i>FittingCurve</i></td> 
-	  <td>- type of function used for fitting curve. The value range: 'gaussian', 'polyfit',                'two_exponential'.</td>
-  </tr>
-  <tr>
-    <td><i>PolyfitDegree</i></td> 
-	  <td>- degree in a polynomial function.</td>    
-  </tr>
-  <tr>
-    <td><i>MinMaxXFit</i></td> 
-	  <td>- interval used to calculate mathematical function for best fitting curve. Default value:         (None, None).</td>
-  </tr>
-  <tr>
-    <td><i>StdLatencyTimeDelay</i></td> 
-	  <td>- delay for detecting latency (STD threshold). The value range: None or time in ms.</td>
-  </tr> 
-  <tr>
-    <td><i>TimeWindowPlotMode</i></td> 
-	  <td>- The parameter defines the time window for channel. The value range: 'On', 'Off', 
-    'OnOff'. 'On' - the time window from 'On'-plot parameters is used for On- and Off-plots. \
-    'Off' - the time window from 'Off'-plot parameters is used for On- and Off-plots. 'OnOff' -           each plot uses its own time window parameter.</td>  
-  </tr>
-  <tr>
-    <td><i>MaximumIJPlotMode</i></td>
-	  <td>- parameter defines the maximum position (IJ) for channel. The value range: 'On', 'Off',          'OnOff'. In case 'OnOff' each plot will use its own maximum position.</td>td 
-  </tr>
-  <tr>
-    <td><i>FittingCurve</i></td> 
-	  <td>- type of function used for fitting curve. The value range: 'gaussian', 'polyfit',                'two_exponential'.</td>
-  </tr>
-  <tr>
-    <td><i>PolyfitDegree</i></td> 
-	  <td>- degree in a polynomial function.</td> 
-  </tr>
-  <tr>
-    <td><i>MinMaxXFit</i></td> 
-	  <td>- interval used to calculate mathematical function for best fitting curve. Default value:         (None, None).</td> 
-  </tr>
-  <tr>
-    <td><i>StdLatencyTimeDelay</i></td> 
-	  <td>- delay for detecting latency (STD threshold). The value range: None or time in ms.</td>
-  </tr>
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th> 
+    </tr>
+    <tr>
+        <td><i>TimeWindowPlotMode</i></td>
+	    <td>- The parameter defines the time window for channel. The value
+        range: 'On', 'Off', 'OnOff'. 'On' - the time window from 'On'-plot
+        parameters is used for On- and Off-plots. 'Off'- the time window from
+        'Off'-plot parameters is used for On- and Off-plots. 'OnOff' - each
+        plot uses its own time window parameter.</td>  
+    </tr>
+    <tr>
+        <td><i>MaximumIJPlotMode</i></td> 
+	    <td>- parameter defines the maximum position (IJ) for channel. The
+        value range: 'On', 'Off', 'OnOff'. In case 'OnOff' each plot will use
+        its own maximum position.</td>
+    </tr>
+    <tr>
+        <td><i>FittingCurve</i></td> 
+	    <td>- type of function used for fitting curve. The value range:
+        'gaussian', 'polyfit', 'two&lowbar;exponential'.</td>
+    </tr>
+    <tr>
+        <td><i>PolyfitDegree</i></td> 
+	    <td>- degree in a polynomial function.</td>    
+    </tr>
+    <tr>
+        <td><i>MinMaxXFit</i></td> 
+	    <td>- interval used to calculate mathematical function for best fitting
+        curve. Default value: (None, None).</td>
+    </tr>
+    <tr>
+        <td><i>StdLatencyTimeDelay</i></td> 
+	    <td>- delay for detecting latency (STD threshold). The value range:
+        None or time in ms.</td>
+    </tr> 
+    <tr>
+        <td><i>TimeWindowPlotMode</i></td> 
+	    <td>- The parameter defines the time window for channel. The value
+        range: 'On', 'Off', 'OnOff'. 'On' - the time window from 'On'-plot
+        parameters is used for On- and Off-plots. 'Off' - the time window from
+        'Off'-plot parameters is used for On- and Off-plots. 'OnOff' - each
+        plot uses its own time window parameter.</td>  
+    </tr>
+    <tr>
+        <td><i>MaximumIJPlotMode</i></td>
+	    <td>- parameter defines the maximum position (IJ) for channel. The
+        value range: 'On', 'Off', 'OnOff'. In case 'OnOff' each plot will use
+        its own maximum position.</td> 
+    </tr>
+    <tr>
+        <td><i>FittingCurve</i></td> 
+	    <td>- type of function used for fitting curve. The value range:
+        'gaussian', 'polyfit', 'two&lowbar;exponential'.</td>
+    </tr>
+    <tr>
+        <td><i>PolyfitDegree</i></td> 
+	    <td>- degree in a polynomial function.</td> 
+    </tr>
+    <tr>
+        <td><i>MinMaxXFit</i></td> 
+	    <td>- interval used to calculate mathematical function for best fitting
+        curve. Default value: (None, None).</td> 
+    </tr>
+    <tr>
+        <td><i>StdLatencyTimeDelay</i></td> 
+	    <td>- delay for detecting latency (STD threshold). The value range:
+        None or time in ms.</td>
+    </tr>
 </table></div>
 
 ### Plot configuration parameters
 
 <div><table align="left">
-  <tr>
-    <th>Parameter</th>
-    <th>Description</th> 
-  </tr>
-  <tr>
-    <td><i>FittingCurveEnable</i></td>
-    <td>- show/hide fitting curve and parameters. The value range: False or True.</td>
-  </tr>
-  <tr>
-    <td><i>BaseLineInterval</i></td>
-    <td>- interval in ms for the base line. Format: (t1, t2).</td>
-  </tr>
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th> 
+    </tr>
+    <tr>
+        <td><i>FittingCurveEnable</i></td>
+        <td>- show/hide fitting curve and parameters. The value range: False or
+        True.</td>
+    </tr>
+    <tr>
+        <td><i>BaseLineInterval</i></td>
+        <td>- interval in ms for the base line. Format: (t1, t2).</td>
+    </tr>
 </table></div>
 
 ## Data visualization
 
 Here is a visualization of receptive field dynamics plots. 
 
-![**MaximumStrength hot spot maximum fitting curves**](./Images/MaximumStrength_PlotsAndDynamicsPlots.png)
+<div><img src="./Images/MaximumStrength_PlotsAndDynamicsPlots.png" /></div>
 
-Here is a visualization of hot spot maximum fitting curves and power fitting curves 
+Here is a visualization of hot spot maximum fitting curves and power fitting
+curves. 
 
 <div><table>
     <tr>
-        <td><img src="./Images/MaximumStrength_HotSpotMaximum_FittingCurves.png" width="400" height="400" /></td>
-        <td><img src="./Images/MaximumStrength_Power_FittingCurves.png" width="400" height="400" /></td>
+        <td><img
+            src="./Images/MaximumStrength_HotSpotMaximum_FittingCurves.png"
+            width="400" height="400" /></td>
+        <td><img src="./Images/MaximumStrength_Power_FittingCurves.png"
+            width="400" height="400" /></td>
     </tr>
 </table></div>
   
