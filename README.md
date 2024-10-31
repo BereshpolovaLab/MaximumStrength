@@ -46,7 +46,10 @@ pip install -r list.txt --upgrade*
     <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
 </table>
-<br>
+\
+&nbsp;
+\
+&nbsp;
 
 ## Data visualization
 
