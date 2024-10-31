@@ -32,8 +32,8 @@ pip install -r list.txt --upgrade*
 ### Channel configuration parameters 
 
 ### Plot configuration parameters
-<div>
-<table align="left">
+
+<div><table align="left">
   <tr>
       <th>Parameter</th>
       <th>Description</th> 
@@ -46,8 +46,7 @@ pip install -r list.txt --upgrade*
     <td><i>BaseLineInterval</i></td>
     <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
-</table>
-</div>
+</table></div>
 
 ## Data visualization
 
@@ -57,11 +56,12 @@ Here is a visualization of receptive field dynamics plots.
 
 Here is a visualization of hot spot maximum fitting curves and power fitting curves 
 
-<table>
+<div><table>
   <tr>
     <td><img src="./Images/MaximumStrength_HotSpotMaximum_FittingCurves.png" width="400" height="400" /></td>
     <td><img src="./Images/MaximumStrength_Power_FittingCurves.png" width="400" height="400" /></td>
   </tr>
-</table>
+</table></div>
+  
 ## Report 
 ### MaximumStrength report parameters: 
