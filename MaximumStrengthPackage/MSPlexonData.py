@@ -1,5 +1,6 @@
-#!/usr/bin/env python3se
-# 24, BereshpolovaLab, University of Connecticut
+#!/usr/bin/env python3
+# 2024, BereshpolovaLab, University of Connecticut
+# Developed by Victor Serdyukov, e-mails: Victor.Serdyukov@uconn.edu
 
 
 from DynamicsPackage import DynamicsPlexonData as DP_DPD
