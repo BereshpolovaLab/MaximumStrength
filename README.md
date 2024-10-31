@@ -31,12 +31,69 @@ pip install -r list.txt --upgrade*
 
 ### Channel configuration parameters 
 
+<div><table align="left">
+  <tr>
+    <th>Parameter</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+    <td><i>TimeWindowPlotMode</i></td>
+	  <td>- The parameter defines the time window for channel. The value range: 'On', 'Off', 'OnOff'.        'On' - the time window from 'On'-plot parameters is used for On- and Off-plots. 'Off' - the time      window from 'Off'-plot parameters is used for On- and Off-plots. 'OnOff' - each plot uses its         own time window parameter.</td>  
+  </tr>
+  <tr>
+    <td><i>MaximumIJPlotMode</i></td> 
+	  <td>- parameter defines the maximum position (IJ) for channel. The value range: 'On', 'Off',          'OnOff'. In case 'OnOff' each plot will use its own maximum position.</td>
+  </tr>
+  <tr>
+    <td><i>FittingCurve</i></td> 
+	  <td>- type of function used for fitting curve. The value range: 'gaussian', 'polyfit',                'two_exponential'.</td>
+  </tr>
+  <tr>
+    <td><i>PolyfitDegree</i></td> 
+	  <td>- degree in a polynomial function.</td>    
+  </tr>
+  <tr>
+    <td><i>MinMaxXFit</i></td> 
+	  <td>- interval used to calculate mathematical function for best fitting curve. Default value:         (None, None).</td>
+  </tr>
+  <tr>
+    <td><i>StdLatencyTimeDelay</i></td> 
+	  <td>- delay for detecting latency (STD threshold). The value range: None or time in ms.</td>
+  </tr>
+  <tr>
+    <td><i>TimeWindowPlotMode</i></td> 
+	  <td>- The parameter defines the time window for channel. The value range: 'On', 'Off', 
+    'OnOff'. 'On' - the time window from 'On'-plot parameters is used for On- and Off-plots. \
+    'Off' - the time window from 'Off'-plot parameters is used for On- and Off-plots. 'OnOff' -           each plot uses its own time window parameter.</td>  
+  </tr>
+  <tr>
+    <td><i>MaximumIJPlotMode</i></td>
+	  <td>- parameter defines the maximum position (IJ) for channel. The value range: 'On', 'Off',          'OnOff'. In case 'OnOff' each plot will use its own maximum position.</td>td 
+  </tr>
+  <tr>
+    <td><i>FittingCurve</i></td> 
+	  <td>- type of function used for fitting curve. The value range: 'gaussian', 'polyfit',                'two_exponential'.</td>
+  </tr>
+  <tr>
+    <td><i>PolyfitDegree</i></td> 
+	  <td>- degree in a polynomial function.</td> 
+  </tr>
+  <tr>
+    <td><i>MinMaxXFit</i></td> 
+	  <td>- interval used to calculate mathematical function for best fitting curve. Default value:         (None, None).</td> 
+  </tr>
+  <tr>
+    <td><i>StdLatencyTimeDelay</i></td> 
+	  <td>- delay for detecting latency (STD threshold). The value range: None or time in ms.</td>
+  </tr>
+</table></div>
+
 ### Plot configuration parameters
 
 <div><table align="left">
   <tr>
-      <th>Parameter</th>
-      <th>Description</th> 
+    <th>Parameter</th>
+    <th>Description</th> 
   </tr>
   <tr>
     <td><i>FittingCurveEnable</i></td>
