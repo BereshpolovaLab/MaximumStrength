@@ -59,7 +59,7 @@ pip install -r list.txt --upgrade*
   <tr>
     <td><i>StdLatencyTimeDelay</i></td> 
 	  <td>- delay for detecting latency (STD threshold). The value range: None or time in ms.</td>
-  </tr>
+  </tr> 
   <tr>
     <td><i>TimeWindowPlotMode</i></td> 
 	  <td>- The parameter defines the time window for channel. The value range: 'On', 'Off', 
