@@ -47,7 +47,7 @@ pip install -r list.txt --upgrade*
   </tr>
 </table>
 
-<h2>Data visualization</h2>
+## Data visualization
 
 Here is a visualization of receptive field dynamics plots. 
 
