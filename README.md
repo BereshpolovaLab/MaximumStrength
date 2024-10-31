@@ -165,7 +165,7 @@ pip install -r list.txt --upgrade*
     </tr>
     <tr>
         <td><i>HotSpotMaximumFittingCurveGraphicFileDPI,
-        PowerFittingCurveGraphicFileDPI</i><td> 
+        PowerFittingCurveGraphicFileDPI</i></td> 
 	    <td>- resolutions for hotspot and power fitting curve graphics files. 
         </td>
     </tr>
