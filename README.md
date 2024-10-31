@@ -54,6 +54,123 @@ pip install -r list.txt --upgrade*
 ## Configuration parameters
 ### Main configuration parameters
 
+<div><table align="left">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th> 
+    </tr>
+    <tr>
+        <td><i>HotSpotMaximumFittingCurveGraphicFileName,
+        PowerFittingCurveGraphicFileName</i></td> 
+	    <td>- file names for hotspot and power fitting curves.</td>
+    </tr>
+    <tr>
+        <td><i>TimeWindows: T1, T2, Step, Duration</i></td>  
+	    <td>- T1 - T2 - time interval for dynamics in ms. Step - the time
+        interval in ms between two iterations. The duration is the time window
+        of analysis in ms.</td>
+    </tr>
+    <tr>
+        <td><i>PlotStep</i></td> 
+	    <td>- parameter specifies how many spatial RF maps will be presented in
+        output file for visualization, for example every 10 ms.</td> 
+    </tr>
+    <tr>
+        <td><i>OriginalMaximShow</i></td> 
+	    <td>- show/hide maximum values of plots before. The value range: True
+        or False.</td> 
+    </tr>
+    <tr>
+        <td><i>ModifiedMaximShow</i></td> 
+	    <td>- show/hide maximum values of plots after. The value range: True or
+        False.<td> 
+    </tr>
+    <tr>
+        <td><i>MainPlotMode</i></td> 
+	    <td>- parameter defines what normalization of the maximum is used for
+        visualization of the Main plots. The value range: 'None' or 'vertical'.
+        None - each plot uses its own maximum; 'vertical' plots are normalized
+        to the maximum ON and OFF responses for all channels. Used for
+        comparison of the strength of the hotspot of ON and OFF subfields.</td> 
+    </tr>
+    <tr>
+        <td><i>DynamicsPlotMode</i></td> 
+	    <td>- parameter defines what normalization of the maximum is used for
+        visualization of the Dynamics plots. The value range: 'None',
+        'horizontal', 'vertical', 'group'. None - each plot uses its own
+        maximum; 'vertical' plots are normalized to the maximum ON- and
+        OFF-responses for all channels; 'horizontal' - the maximum for all
+        ON-plots and the maximum for all Off-plots; 'group' - the maximum for
+        all dynamics plots.</td> 
+    </tr>
+    <tr>
+        <td><i>ShowPlotSubfield: I1, I2, J1, J2</i></td>  
+	    <td>- show entire plot or part of plot.</td> 
+    </tr>
+    <tr>
+        <td><i>MaximumFieldShow</i></td> 
+	    <td>- show/hide maximum field.</td> 
+    </tr>
+    <tr>
+        <td><i>StdThresholdCoefficient</i></td>  
+	    <td>- coefficient (in SD) to multiply base line to calculate the
+        latency of the response. Default value: 3.<td> 
+    </tr>
+    <tr>
+        <td><i>PlotAdjustment: Top, Left, Right, Bottom, HSpace, WSpace
+        </i></td> 
+	    <td>- matplotlib-parameters for grid of subplots, X or Y position of
+        top, left, right, bottom subplots, the height and width of the padding
+        between subplots. These parameters are applied for plot visualization.
+        <td>
+    </tr>
+    <tr>
+        <td><i>CurveAdjustment: Top, Left, Right, Bottom, HSpace, WSpace
+        </i></td> 
+	    <td>- matplotlib-parameters for grid of subplots, X or Y position of
+        top, left, right, bottom subplots, the height and width of the padding
+        between subplots. These parameters are applied for fitting curve
+        visualization.</td> 
+    </tr>
+    <tr>
+        <td><i>TightLayoutFlag</i></td> 
+	    <td>- adjust the padding between and around subplots. The value range:
+        True or False.</td>
+    </tr>
+    <tr>
+        <td><i>CurveWindowMaximized</i></td>  
+	    <td>- maximized fitting curve window to full screen or not. The value
+        range: False or True.</td> 
+    </tr>
+    <tr>
+        <td><i>CurveWindowWidth, CurveWindowHeight</i></td>  
+	    <td>- fitting curve window size in inches if window is not maximized to
+        full screen.</td> 
+    </tr>
+    <tr>
+        <td><i>FittingCurveHBin</i></td> 
+	    <td>- tick step on X-axis.<td> 
+    </tr>
+    <tr>
+        <td><i>LinspacePointNumber</i></td> 
+	    <td>- number of pixels in fitting curve.</td> 
+    </tr>
+    <tr>
+        <td><i>HotSpotMaximumFittingCurveColors</i></td>  
+	    <td>- colors for On- and Off- hotspot fitting curves.</td> 
+    </tr>
+    <tr>
+        <td><i>PowerFittingCurveColors</i></td>  
+	    <td>- colors for On- and Off- power fitting curves.</td> 
+    </tr>
+    <tr>
+        <td><i>HotSpotMaximumFittingCurveGraphicFileDPI,
+        PowerFittingCurveGraphicFileDPI</i><td> 
+	    <td>- resolutions for hotspot and power fitting curve graphics files. 
+        </td>
+    </tr>
+</table></div>
+
 ### Channel configuration parameters 
 
 <div><table align="left">
