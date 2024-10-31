@@ -249,13 +249,23 @@ pip install -r list.txt --upgrade*
     </tr> 
     <tr>
         <td><i>FieldRadius</i></td> 
-	    <td>arameter specifies the radius of field around hotspot (maximum
+	    <td>- parameter specifies the radius of field around hotspot (maximum
         position). This value is a number of grid squares (elements of
         reverse-correlation matrix): 1 = 3x3, 2 = 5x5, etc.
         <img src="./Images/FieldRadius.png" /></td>
     </tr> 
-
-
+    <tr>
+        <td><i>FieldAddTuple</i></td> 
+	    <td>- parameter allows to add grid squares to the field around the
+        hopspot. The value range: None or ((I1, J1), (I2, J2), ..., (In, Jn)).
+        </td>
+    </tr> 
+    <tr>
+        <td><i>FieldRemoveTuple</i></td> 
+	    <td>- parameter allows to remove grid squares from the field aroud the
+        hotspot. The value range: None or ((I1, J1), (I2, J2), ..., (In, Jn)).
+        </td>
+    </tr> 
 </table></div>
 
 ### Plot configuration parameters
