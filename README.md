@@ -59,7 +59,6 @@ pip install -r list.txt --upgrade*
         <th>Parameter</th>
         <th>Description</th> 
     </tr>
-
     <tr>
         <td><i>InputDir</i></td> 
 	    <td>- directory with data files. Default value: 'Data'.</td>
