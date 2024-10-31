@@ -168,3 +168,43 @@ curves.
   
 ## Report 
 ### MaximumStrength report parameters: 
+
+<div><table align="left">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th> 
+    </tr>
+    <tr>
+        <td><i>CH.CL</i></td> 
+	    <td>- Channel and cluster number.</td> 
+    </tr>
+    <tr>
+        <td><i>On/Off</i></td> 
+	    <td>- On- or Off-response.</td> 
+    </tr>
+    <tr>
+        <td><i>Peak T</i></td> 
+	    <td>- time moment in ms of peak for dynamics. Other words it is time
+        delay from stimulation to maximal responses.</td> 
+    </tr>
+    <tr>
+        <td><i>Sigma</i></td> 
+	    <td>- full width of half height of peak in ms.</td> 
+    </tr>
+    <tr>
+        <td><i>T0</i></td> 
+	    <td>- time moment in ms of Sigma.</td> 
+    </tr>
+    <tr>
+        <td><i>R2 %</i></td> 
+	    <td>- regression score function or coefficient of determination in
+        %.</td> 
+    </tr>
+    <tr>
+        <td><i>Latency</i></td> 
+	    <td>- time moment in ms where fitting curve cross the threshold
+        (coefficient number of STDs of the baseline noise). Pay attention to
+        input parameters: 'StdLatencyTimeDelay' and 'StdThresholdCoefficient'.
+        </td>
+    </tr>
+</table></div> 
