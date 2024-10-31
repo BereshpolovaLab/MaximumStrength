@@ -55,7 +55,11 @@ Here is a visualization of receptive field dynamics plots.
 
 Here is a visualization of hot spot maximum fitting curves and power fitting curves 
 
-| <img src="./Images/MaximumStrength_HotSpotMaximum_FittingCurves.png" width="400" height="400" /> | <img src="./Images/MaximumStrength_Power_FittingCurves.png" width="400" height="400" /> |
-
+<table>
+  <tr>
+    <td><img src="./Images/MaximumStrength_HotSpotMaximum_FittingCurves.png" width="400" height="400" /></td>
+    <td><img src="./Images/MaximumStrength_Power_FittingCurves.png" width="400" height="400" /></td>
+  </tr>
+</table>
 ## Report 
 ### MaximumStrength report parameters: 
