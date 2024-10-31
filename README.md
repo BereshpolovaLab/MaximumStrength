@@ -34,13 +34,13 @@ pip install -r list.txt --upgrade*
 ### Plot configuration parameters
 <table align="left">
   <tr>
-    <th><i>FittingCurveEnable</i></th>
-    <th>- show/hide fitting curve and parameters. The value range: False or True.</th>
+    <td><i>FittingCurveEnable</i></td>
+    <td>- show/hide fitting curve and parameters. The value range: False or True.</td>
   </tr><tr>
-    <th><i>BaseLineInterval</i></th>
-    <th>- interval in ms for the base line. Format: (t1, t2).</th>
+    <td><i>BaseLineInterval</i></td>
+    <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
-</table>\\
+</table>
 
 ## Data visualization
 
