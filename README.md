@@ -32,6 +32,7 @@ pip install -r list.txt --upgrade*
 ### Channel configuration parameters 
 
 ### Plot configuration parameters
+<div>
 <table align="left">
   <tr>
       <th>Parameter</th>
@@ -46,6 +47,7 @@ pip install -r list.txt --upgrade*
     <td>- interval in ms for the base line. Format: (t1, t2).</td>
   </tr>
 </table>
+</div>
 
 ## Data visualization
 
