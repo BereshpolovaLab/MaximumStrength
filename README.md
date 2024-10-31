@@ -40,7 +40,7 @@ pip install -r list.txt --upgrade*
     <th><i>BaseLineInterval</i></th>
     <th>- interval in ms for the base line. Format: (t1, t2).</th>
   </tr>
-</table>
+</table>\\
 
 ## Data visualization
 
