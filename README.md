@@ -15,25 +15,15 @@ value), duration of the response (defined as the full width of the
 interpolating function at half maximum value), and Sign index that
 indicate the ON or OFF subfield dominance. 
 
-## Installation
+Requirements:
 
-We need python-language and a few additional modules (packages) to run our
-scripts. To get more information about python visit web-sites:
-https://www.python.org/. Please keepin mind that the newest versions of python
-won't work with old operating systems as Windows 7, Windowx XP etc. So please
-pay attention what you download and install. Please read documentation to
-install, delete or update Python-language and packages.
+You need python-language with a few additional modules (packages) and
+Microsoft Visual Studio to run the script. Install the latest version of python
+for all users, upgrade pip and install packages. Check the "import" statements
+in all *.py files to know what modules to install. An error message after
+running scripts will say what module is missed.
 
-Install latest version of python for all user. Install it for all users. For
-Windows 7 it will be vesrion 3.8.10 and for Windows 10 or 11 it will be version
-3.13.0 or later. To install scikit-learn package we have to install Microsoft
-Visual Studio. The latest Community-version will be good. We need only desktop
-application support in Visual Studio. Upgrade pip and install packages. 
-
-Check the "import" statements in all *.py files to know what modules do we have
-to install. "import" statements are also used for using standard python
-modules. No need to install them. A error message after running scripts could
-say what module is missed. 
+Scripts are tested on version 3.8.10 and 3.13.0.
 
 **Example 1.1. Install packages:**
 
@@ -59,7 +49,6 @@ pip install -r list.txt --upgrade*
         <th>Parameter</th>
         <th>Description</th> 
     </tr>
-
     <tr>
         <td><i>InputDir</i></td> 
 	    <td>- directory with data files. Default value: 'Data'.</td>
@@ -71,7 +60,7 @@ pip install -r list.txt --upgrade*
     </tr>
      <tr>
         <td><i>BasicFileName</i></td> 
-	    <td>- filename without extension (it hat to match the exact filename in
+	    <td>- filename without extension (it has to match the exact filename in
         InputDir). The same filename will be used for data and result files.
         This parameter has to be changed before script running.</td>
     </tr>
@@ -88,8 +77,7 @@ pip install -r list.txt --upgrade*
     <tr>
         <td><i>ProtocolNumber</i></td> 
 	    <td>- protocol for encoding information for visual stimulation.
-        Default value: 11. To analize old data use protocol 0 (obsolete, no
-        longer supported). Other protocol could be used.</td>
+        Default value: 11.</td>
     </tr>
      <tr>
         <td><i>VRR</i></td> 
@@ -122,9 +110,7 @@ pip install -r list.txt --upgrade*
     </tr>
     <tr>
         <td><i>GaussianSigma</i></td> 
-	    <td>- parameter for the Gaussian filter. The role of sigma is to
-        control the variation around its mean value. A higher Sigma allows for
-        more variance around the mean, resulting in a larger and smoother RF.
+	    <td>- parameter for the Gaussian filter. 
         </td>
     </tr>
     <tr>
