@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# 24, BereshpolovaLab, University of Connecticut
+# 2024, BereshpolovaLab, University of Connecticut
+# Developed by Victor Serdyukov, e-mails: Victor.Serdyukov@uconn.edu
 
 
 from Common import LogFileObject as C_LFO
@@ -28,6 +29,6 @@ def Main(
             PlexonData.ShowHotSpotMaximumFittingCurves(
                 HotSpotMaximum_FittingCurve_GraphicFileName)
             PlexonData.ShowPowerFittingCurves(
-                Power_FittingCurve_GraphicFileName)
+%                Power_FittingCurve_GraphicFileName)
             # show maximum and power MTSD
             PlexonData.ShowMaximumAndPowerMTSD()
